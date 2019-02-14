@@ -68,7 +68,7 @@ a:hover {
     color: #F6A623;
 }
 
-.post {
+.post, .about {
     max-width: 800px;
     margin: 0 auto;
     padding: 60px 0;
@@ -88,9 +88,19 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
+.about {
+    text-align: center;
+}
 h1, h2, h3, h4 {
     color: #333;
 }
 p {
     line-height: 1.5;
+}
+.post-author img,
+.about-author img {
+    border-radius: 50%;
+}
+.post-container:nth-child(even) {
+    background-color: #f2f2f2;
 }
